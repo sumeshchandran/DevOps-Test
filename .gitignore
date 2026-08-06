@@ -7,6 +7,7 @@
 .sfdx/
 .localdevserver/
 deploy-options.json
+.localdev
 
 # LWC VSCode autocomplete
 **/lwc/jsconfig.json
@@ -39,6 +40,10 @@ ehthumbs.db
 [Dd]esktop.ini
 $RECYCLE.BIN/
 
+# Salesforce Analyzer results
+sca-results.csv
+sfca_results.json
+
 # Local environment variables
 .env
 
@@ -46,3 +51,4 @@ $RECYCLE.BIN/
 **/__pycache__/
 **/.venv/
 **/venv/
+
